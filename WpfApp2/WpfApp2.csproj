@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\calculator.ico" />
+    <None Remove="Images\png1.PNG" />
+    <None Remove="Images\png2.PNG" />
+    <None Remove="Images\png3.PNG" />
+    <None Remove="Images\png4.PNG" />
+    <None Remove="Images\png5.PNG" />
+    <None Remove="Images\png6.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\calculator.ico" />
+    <Resource Include="Images\png1.PNG" />
+    <Resource Include="Images\png2.PNG" />
+    <Resource Include="Images\png3.PNG" />
+    <Resource Include="Images\png4.PNG" />
+    <Resource Include="Images\png5.PNG" />
+    <Resource Include="Images\png6.PNG" />
+  </ItemGroup>
+
+</Project>
